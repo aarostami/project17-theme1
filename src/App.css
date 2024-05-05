@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+	box-sizing: border-box;	
+}
+
+nav button.navbar-toggler:focus {
+	box-shadow: 2px 2px #e6e6e6, -2px -2px #e6e6e6;
+}
+
+nav .register a i:hover {
+	background-color: #ececec !important;
+}
+
+nav .register button:last-of-type {
+	background-color: #FD665E;
+}
+
+nav .register button:last-of-type:hover {
+	background-color: #dd3c34;
+}
+
+nav .register button:first-of-type:hover {
+	color: #000000;
+}
+
+nav ul.navbar-nav li a {
+	border-bottom: 3px solid transparent;
+}
+
+nav ul.navbar-nav li a:hover {
+	border-bottom: 3px solid #dd3c34;
+}
+
+header .second-row button {
+	background-color: #FD665E;
+	color: white;
+}
+
+header .second-row button:hover {
+	color: #FD665E;
+	background-color: white;
+	border: 1px solid #FD665E;
+}
+
+header h1, .body h3, .body .info h3, .body .qoute h3, .body .last-part h2, footer h2 {
+	font-family: 'playfair Display';
+	font-weight: bold;
+}
+
+header h1 span {
+	color: #FD665E;
+}
+
+.body .info p {
+	font-size: 14px;
+}
+
+.body .info .collec img {
+	max-width: 70%;
+}
+
+
+.body .info button {
+	background-color: #FD665E;
+	max-width: 15%;
+}
+
+.body .info button:hover {
+	background-color: #dd3c34;
+}
+
+.body .last-part {
+	background-color: #F9F9F9;
+}
+
+.body .last-part button {
+	background-color: #FD665E;
+}
+
+.body .last-part button:hover {
+	background-color: #dd3c34;
+}
+
+.body .last-part h2 span {
+	color: #FD665E;
+}
+
+footer .brands img {
+	max-width: 12% !important;
+	height: auto;
+	opacity: 0.6;
+	
+}
+
+footer .nav li a {
+	font-size: 13px;
+}
+
+footer .nav li a:hover {
+	color: #000000;
+}
+
+@media screen and (max-width: 576px) {
+	.body .info .collec img {
+		max-width:25%;
+	}
+
+	.body .info .collec p {
+		text-align: center;
+	}
+
+	.body .info button {
+		max-width: 50%;
+	}
+
+
+	footer .brands img {
+		width: auto;
+		max-width: 50% !important;
+		height: auto;
+	}
+}
